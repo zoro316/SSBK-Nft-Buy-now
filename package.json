@@ -25,7 +25,8 @@
     "eject": "react-scripts eject",
     "publish": "heroku create -b mars/create-react-app && npm run deploy",
     "rename": "heroku apps:rename",
-    "deploy": "git push heroku master"
+    "deploy": "serve -s build"
+}
   },
   "eslintConfig": {
     "extends": "react-app"
