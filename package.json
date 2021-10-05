@@ -26,7 +26,6 @@
     "publish": "heroku create -b mars/create-react-app && npm run deploy",
     "rename": "heroku apps:rename",
     "deploy": "serve -s build"
-}
   },
   "eslintConfig": {
     "extends": "react-app"
